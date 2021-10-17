@@ -1,0 +1,30 @@
+.div-1 {
+  background-color: red;
+  background-image: url(./images/herow.jpg), url(./images/herow.jpg), url(./images/herow.jpg), url(./images/herow.jpg), url(./images/beautiful-1.png);
+  background-size: 200px, 200px, 200px, 200px, cover;
+  background-repeat: repeat-y, repeat-y, repeat-y, repeat-x, no-repeat;
+  background-position: bottom left, top right, center, center, center;
+  
+}
+#example-1 {
+  color: rgb(18, 1, 255);
+  font-size: 85px;
+  font-family: 'Merienda', cursive;
+  text-align: center;
+  padding: 110px;
+}
+#example-2 {
+  background-color: deeppink;
+  text-align: center;
+}
+article {
+  float: left;
+  display: table;
+  background-color:rgb(18, 1, 255);
+  background-image: url(./images/beautiful-3.webp), url(./images/b.jpg);
+  width: 50%;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
